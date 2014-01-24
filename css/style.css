@@ -1,13 +1,23 @@
 body {
-	background-color: #E3E3E3;
+	background-color: #345d35;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container  {
 	background-color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.campusvine-jumbotron {
-	background-color: #7AB800;
+h1#sga {
+	color: #345d35;
+	margin-top: 0;
+	font-size: 40px;
+	font-weight: 800;
+	text-align: center;
 }
 
 .campusvine-linkarea {
@@ -22,10 +32,30 @@ body {
 .document-square {
 	border: 1px solid #eee;
 	text-align: center;
+	opacity: .85;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
 }
 
 .document-square h2 {
 	padding: 20px;
+}
+
+.document-square:hover {
+	background-color: #eee;
+	color: #345d35;
+	cursor: pointer;
+	opacity: 1;
+}
+
+a {
+	color: #345d35;
+}
+
+a:hover {
+	color: #345d35;
+	text-decoration: none;
 }
 
 .big-icon {
