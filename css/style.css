@@ -20,6 +20,12 @@ h1#sga {
 	text-align: center;
 }
 
+div.bs-callout {
+	margin: 20px 0;
+	padding: 20px;
+	border-left: 3px solid #EEE;
+}
+
 .campusvine-linkarea {
 	border: 1px solid #eee;
 }
