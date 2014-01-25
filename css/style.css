@@ -3,7 +3,7 @@ body {
 }
 
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .container  {
@@ -24,7 +24,12 @@ div.bs-callout {
 	margin: 20px 0;
 	padding: 20px;
 	border-left: 3px solid #EEE;
+	border-right: 3px solid #EEE;
+	background-color: #faf8f0;
+	border-color: #faebcc;
 }
+
+
 
 .campusvine-linkarea {
 	border: 1px solid #eee;
